@@ -1,0 +1,44 @@
+[INFO ] 2017-12-19 19:45:05,735 method:com.goushuini.utils.LogUtils.startTestCase(LogUtils.java:16)
+********************login_001	测试用例开始运行	*******************
+[INFO ] 2017-12-19 19:45:09,735 method:com.goushuini.utils.LogUtils.info(LogUtils.java:24)
+浏览器打开成功
+[INFO ] 2017-12-19 19:45:09,737 method:com.goushuini.utils.LogUtils.info(LogUtils.java:24)
+test01测试步骤执行成功
+[INFO ] 2017-12-19 19:45:13,518 method:com.goushuini.utils.LogUtils.info(LogUtils.java:24)
+test02测试步骤执行成功
+[INFO ] 2017-12-19 19:45:15,746 method:com.goushuini.utils.LogUtils.info(LogUtils.java:24)
+test03测试步骤执行成功
+[INFO ] 2017-12-19 19:45:16,579 method:com.goushuini.utils.LogUtils.info(LogUtils.java:24)
+test04测试步骤执行成功
+[INFO ] 2017-12-19 19:46:06,383 method:com.goushuini.utils.LogUtils.info(LogUtils.java:24)
+test05测试步骤执行成功
+[INFO ] 2017-12-19 19:46:08,611 method:com.goushuini.utils.LogUtils.info(LogUtils.java:24)
+test06测试步骤执行成功
+[INFO ] 2017-12-19 19:46:09,089 method:com.goushuini.utils.LogUtils.info(LogUtils.java:24)
+login_001测试用例执行成功
+[INFO ] 2017-12-19 19:46:09,091 method:com.goushuini.utils.LogUtils.endTestCase(LogUtils.java:20)
+********************login_001	测试用例运行结束	*******************
+[INFO ] 2017-12-19 19:46:09,092 method:com.goushuini.utils.LogUtils.info(LogUtils.java:24)
+login_002测试用例不执行
+[INFO ] 2017-12-19 21:18:37,763 method:com.goushuini.utils.LogUtils.startTestCase(LogUtils.java:16)
+********************login_001	测试用例开始运行	*******************
+[INFO ] 2017-12-19 21:18:41,976 method:com.goushuini.utils.LogUtils.info(LogUtils.java:24)
+浏览器打开成功
+[INFO ] 2017-12-19 21:18:41,977 method:com.goushuini.utils.LogUtils.info(LogUtils.java:24)
+test01测试步骤执行成功
+[INFO ] 2017-12-19 21:18:45,478 method:com.goushuini.utils.LogUtils.info(LogUtils.java:24)
+test02测试步骤执行成功
+[INFO ] 2017-12-19 21:18:47,833 method:com.goushuini.utils.LogUtils.info(LogUtils.java:24)
+test03测试步骤执行成功
+[INFO ] 2017-12-19 21:18:48,508 method:com.goushuini.utils.LogUtils.info(LogUtils.java:24)
+test04测试步骤执行成功
+[INFO ] 2017-12-19 21:18:55,521 method:com.goushuini.utils.LogUtils.info(LogUtils.java:24)
+test05测试步骤执行成功
+[INFO ] 2017-12-19 21:18:57,692 method:com.goushuini.utils.LogUtils.info(LogUtils.java:24)
+test06测试步骤执行成功
+[INFO ] 2017-12-19 21:18:57,990 method:com.goushuini.utils.LogUtils.info(LogUtils.java:24)
+login_001测试用例执行成功
+[INFO ] 2017-12-19 21:18:57,990 method:com.goushuini.utils.LogUtils.endTestCase(LogUtils.java:20)
+********************login_001	测试用例运行结束	*******************
+[INFO ] 2017-12-19 21:18:57,992 method:com.goushuini.utils.LogUtils.info(LogUtils.java:24)
+login_002测试用例不执行
