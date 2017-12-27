@@ -61,5 +61,4 @@ public class SelectOperation {
 		Assert.assertEquals(text, select.getFirstSelectedOption().getText());
 		LogUtils.info("选择的下拉选项，文案为"+text);
 	}
-
 }

@@ -116,5 +116,4 @@ public class ClickOperation {
     	WebElement el = driver.findElement(by);
     	action.doubleClick(el).build().perform();
     }
-
 }

@@ -1,7 +1,5 @@
 package com.goushuini.h5operation;
 
-import static org.testng.Assert.assertEquals;
-
 import org.openqa.selenium.WebDriver;
 import org.testng.Assert;
 
