@@ -1,0 +1,408 @@
+[INFO ] 2017-12-29 16:13:47,720 method:com.goushuini.utils.LogUtils.startTestCase(LogUtils.java:16)
+********************login_001	测试用例开始运行	*******************
+[INFO ] 2017-12-29 16:13:49,933 method:com.goushuini.utils.LogUtils.info(LogUtils.java:24)
+浏览器打开成功
+[INFO ] 2017-12-29 16:13:49,934 method:com.goushuini.utils.LogUtils.info(LogUtils.java:24)
+test01测试步骤执行成功
+[INFO ] 2017-12-29 16:13:51,706 method:com.goushuini.utils.LogUtils.info(LogUtils.java:24)
+浏览器访问网址：http://devtest.hongshids.com/account/login.do
+[INFO ] 2017-12-29 16:13:51,706 method:com.goushuini.utils.LogUtils.info(LogUtils.java:24)
+test02测试步骤执行成功
+[INFO ] 2017-12-29 16:13:53,827 method:com.goushuini.utils.LogUtils.info(LogUtils.java:24)
+休眠2秒成功
+[INFO ] 2017-12-29 16:13:53,834 method:com.goushuini.utils.LogUtils.info(LogUtils.java:24)
+test03测试步骤执行成功
+[INFO ] 2017-12-29 16:13:53,941 method:com.goushuini.utils.LogUtils.info(LogUtils.java:24)
+使用cookie[msid=e5c7d4d41d474c168cf56cab2edb72aa; expires=星期四, 24 十二月 2037 04:13:53 CST; path=/; domain=devtest.hongshids.com, JSESSIONID=4FA74B59DD65C303148CE1BB7405869E; path=/; domain=devtest.hongshids.com]登录
+[INFO ] 2017-12-29 16:13:53,941 method:com.goushuini.utils.LogUtils.info(LogUtils.java:24)
+test04测试步骤执行成功
+[INFO ] 2017-12-29 16:13:56,056 method:com.goushuini.utils.LogUtils.info(LogUtils.java:24)
+浏览器访问网址：http://devtest.hongshids.com/dealproduct/salerIndexProList.do
+[INFO ] 2017-12-29 16:13:56,056 method:com.goushuini.utils.LogUtils.info(LogUtils.java:24)
+test05测试步骤执行成功
+[INFO ] 2017-12-29 16:13:58,113 method:com.goushuini.utils.LogUtils.info(LogUtils.java:24)
+休眠2秒成功
+[INFO ] 2017-12-29 16:13:58,113 method:com.goushuini.utils.LogUtils.info(LogUtils.java:24)
+test06测试步骤执行成功
+[INFO ] 2017-12-29 16:13:58,276 method:com.goushuini.utils.LogUtils.info(LogUtils.java:24)
+单击页面元素linkText,万年桥牌 PC32.5R 50KG 编织袋 兰溪红狮 吨 失败，具体异常信息为no such element: Unable to locate element: {"method":"link text","selector":"万年桥牌 PC32.5R 50KG 编织袋 兰溪红狮 吨 "}
+  (Session info: chrome=59.0.3071.104)
+  (Driver info: chromedriver=2.30.477700 (0057494ad8732195794a7b32078424f92a5fce41),platform=Windows NT 6.1.7601 SP1 x86_64) (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 54 milliseconds
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '2.46.0', revision: '61506a4624b13675f24581e453592342b7485d71', time: '2015-06-04 10:22:50'
+System info: host: 'joy-PC', ip: '192.168.158.143', os.name: 'Windows 7', os.arch: 'amd64', os.version: '6.1', java.version: '1.8.0_111'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities [{applicationCacheEnabled=false, rotatable=false, mobileEmulationEnabled=false, networkConnectionEnabled=false, chrome={chromedriverVersion=2.30.477700 (0057494ad8732195794a7b32078424f92a5fce41), userDataDir=C:\Users\joy\AppData\Local\Temp\scoped_dir11924_21411}, takesHeapSnapshot=true, pageLoadStrategy=normal, databaseEnabled=false, handlesAlerts=true, hasTouchScreen=false, version=59.0.3071.104, platform=XP, browserConnectionEnabled=false, nativeEvents=true, acceptSslCerts=true, locationContextEnabled=true, webStorageEnabled=true, browserName=chrome, takesScreenshot=true, javascriptEnabled=true, cssSelectorsEnabled=true, unexpectedAlertBehaviour=}]
+Session ID: 5068202081071ff4386827920607ee90
+*** Element info: {Using=link text, value=万年桥牌 PC32.5R 50KG 编织袋 兰溪红狮 吨 }
+[INFO ] 2017-12-29 16:13:58,345 method:com.goushuini.utils.LogUtils.info(LogUtils.java:24)
+login_001测试用例执行失败
+[INFO ] 2017-12-29 16:13:58,346 method:com.goushuini.utils.LogUtils.endTestCase(LogUtils.java:20)
+********************login_001	测试用例运行结束	*******************
+[INFO ] 2017-12-29 16:13:58,346 method:com.goushuini.utils.LogUtils.info(LogUtils.java:24)
+login_002测试用例不执行
+[INFO ] 2017-12-29 16:20:19,190 method:com.goushuini.utils.LogUtils.startTestCase(LogUtils.java:16)
+********************login_001	测试用例开始运行	*******************
+[INFO ] 2017-12-29 16:20:21,295 method:com.goushuini.utils.LogUtils.info(LogUtils.java:24)
+浏览器打开成功
+[INFO ] 2017-12-29 16:20:21,295 method:com.goushuini.utils.LogUtils.info(LogUtils.java:24)
+test01测试步骤执行成功
+[INFO ] 2017-12-29 16:20:22,204 method:com.goushuini.utils.LogUtils.info(LogUtils.java:24)
+浏览器访问网址：http://devtest.hongshids.com/account/login.do
+[INFO ] 2017-12-29 16:20:22,204 method:com.goushuini.utils.LogUtils.info(LogUtils.java:24)
+test02测试步骤执行成功
+[INFO ] 2017-12-29 16:20:24,298 method:com.goushuini.utils.LogUtils.info(LogUtils.java:24)
+休眠2秒成功
+[INFO ] 2017-12-29 16:20:24,298 method:com.goushuini.utils.LogUtils.info(LogUtils.java:24)
+test03测试步骤执行成功
+[INFO ] 2017-12-29 16:20:24,445 method:com.goushuini.utils.LogUtils.info(LogUtils.java:24)
+使用cookie[msid=e5c7d4d41d474c168cf56cab2edb72aa; expires=星期四, 24 十二月 2037 04:20:24 CST; path=/; domain=devtest.hongshids.com, JSESSIONID=05E46A7BFE14502DD2B87C670BF49556; path=/; domain=devtest.hongshids.com]登录
+[INFO ] 2017-12-29 16:20:24,445 method:com.goushuini.utils.LogUtils.info(LogUtils.java:24)
+test04测试步骤执行成功
+[INFO ] 2017-12-29 16:20:25,825 method:com.goushuini.utils.LogUtils.info(LogUtils.java:24)
+浏览器访问网址：http://devtest.hongshids.com/dealproduct/salerIndexProList.do
+[INFO ] 2017-12-29 16:20:25,825 method:com.goushuini.utils.LogUtils.info(LogUtils.java:24)
+test05测试步骤执行成功
+[INFO ] 2017-12-29 16:20:27,886 method:com.goushuini.utils.LogUtils.info(LogUtils.java:24)
+休眠2秒成功
+[INFO ] 2017-12-29 16:20:27,887 method:com.goushuini.utils.LogUtils.info(LogUtils.java:24)
+test06测试步骤执行成功
+[INFO ] 2017-12-29 16:20:28,039 method:com.goushuini.utils.LogUtils.info(LogUtils.java:24)
+单击页面元素linkText,万年桥牌 PC32.5R 50KG 编织袋 兰溪红狮 吨 失败，具体异常信息为no such element: Unable to locate element: {"method":"link text","selector":"万年桥牌 PC32.5R 50KG 编织袋 兰溪红狮 吨 "}
+  (Session info: chrome=59.0.3071.104)
+  (Driver info: chromedriver=2.30.477700 (0057494ad8732195794a7b32078424f92a5fce41),platform=Windows NT 6.1.7601 SP1 x86_64) (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 50 milliseconds
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '2.46.0', revision: '61506a4624b13675f24581e453592342b7485d71', time: '2015-06-04 10:22:50'
+System info: host: 'joy-PC', ip: '192.168.158.143', os.name: 'Windows 7', os.arch: 'amd64', os.version: '6.1', java.version: '1.8.0_111'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities [{applicationCacheEnabled=false, rotatable=false, mobileEmulationEnabled=false, networkConnectionEnabled=false, chrome={chromedriverVersion=2.30.477700 (0057494ad8732195794a7b32078424f92a5fce41), userDataDir=C:\Users\joy\AppData\Local\Temp\scoped_dir9648_6592}, takesHeapSnapshot=true, pageLoadStrategy=normal, databaseEnabled=false, handlesAlerts=true, hasTouchScreen=false, version=59.0.3071.104, platform=XP, browserConnectionEnabled=false, nativeEvents=true, acceptSslCerts=true, locationContextEnabled=true, webStorageEnabled=true, browserName=chrome, takesScreenshot=true, javascriptEnabled=true, cssSelectorsEnabled=true, unexpectedAlertBehaviour=}]
+Session ID: 10397cfc368c0a77968e8fdbd8d2f70c
+*** Element info: {Using=link text, value=万年桥牌 PC32.5R 50KG 编织袋 兰溪红狮 吨 }
+[INFO ] 2017-12-29 16:20:28,104 method:com.goushuini.utils.LogUtils.info(LogUtils.java:24)
+login_001测试用例执行失败
+[INFO ] 2017-12-29 16:20:28,104 method:com.goushuini.utils.LogUtils.endTestCase(LogUtils.java:20)
+********************login_001	测试用例运行结束	*******************
+[INFO ] 2017-12-29 16:20:28,105 method:com.goushuini.utils.LogUtils.info(LogUtils.java:24)
+login_002测试用例不执行
+[INFO ] 2017-12-29 16:25:02,732 method:com.goushuini.utils.LogUtils.startTestCase(LogUtils.java:16)
+********************login_001	测试用例开始运行	*******************
+[INFO ] 2017-12-29 16:25:04,871 method:com.goushuini.utils.LogUtils.info(LogUtils.java:24)
+浏览器打开成功
+[INFO ] 2017-12-29 16:25:04,871 method:com.goushuini.utils.LogUtils.info(LogUtils.java:24)
+test01测试步骤执行成功
+[INFO ] 2017-12-29 16:25:05,832 method:com.goushuini.utils.LogUtils.info(LogUtils.java:24)
+浏览器访问网址：http://devtest.hongshids.com/account/login.do
+[INFO ] 2017-12-29 16:25:05,832 method:com.goushuini.utils.LogUtils.info(LogUtils.java:24)
+test02测试步骤执行成功
+[INFO ] 2017-12-29 16:25:07,902 method:com.goushuini.utils.LogUtils.info(LogUtils.java:24)
+休眠2秒成功
+[INFO ] 2017-12-29 16:25:07,903 method:com.goushuini.utils.LogUtils.info(LogUtils.java:24)
+test03测试步骤执行成功
+[INFO ] 2017-12-29 16:25:08,028 method:com.goushuini.utils.LogUtils.info(LogUtils.java:24)
+使用cookie[msid=e5c7d4d41d474c168cf56cab2edb72aa; expires=星期四, 24 十二月 2037 04:25:08 CST; path=/; domain=devtest.hongshids.com, JSESSIONID=83EBB45210C1C79F61AA439A79AFEB3E; path=/; domain=devtest.hongshids.com]登录
+[INFO ] 2017-12-29 16:25:08,028 method:com.goushuini.utils.LogUtils.info(LogUtils.java:24)
+test04测试步骤执行成功
+[INFO ] 2017-12-29 16:25:08,847 method:com.goushuini.utils.LogUtils.info(LogUtils.java:24)
+浏览器访问网址：http://devtest.hongshids.com/dealproduct/salerIndexProList.do
+[INFO ] 2017-12-29 16:25:08,847 method:com.goushuini.utils.LogUtils.info(LogUtils.java:24)
+test05测试步骤执行成功
+[INFO ] 2017-12-29 16:25:10,906 method:com.goushuini.utils.LogUtils.info(LogUtils.java:24)
+休眠2秒成功
+[INFO ] 2017-12-29 16:25:10,906 method:com.goushuini.utils.LogUtils.info(LogUtils.java:24)
+test06测试步骤执行成功
+[INFO ] 2017-12-29 16:25:11,031 method:com.goushuini.utils.LogUtils.info(LogUtils.java:24)
+单击页面元素linkText,万年桥牌 PC32.5R 50KG 编织袋 兰溪红狮 吨 失败，具体异常信息为no such element: Unable to locate element: {"method":"link text","selector":"万年桥牌 PC32.5R 50KG 编织袋 兰溪红狮 吨 "}
+  (Session info: chrome=59.0.3071.104)
+  (Driver info: chromedriver=2.30.477700 (0057494ad8732195794a7b32078424f92a5fce41),platform=Windows NT 6.1.7601 SP1 x86_64) (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 53 milliseconds
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '2.46.0', revision: '61506a4624b13675f24581e453592342b7485d71', time: '2015-06-04 10:22:50'
+System info: host: 'joy-PC', ip: '192.168.158.143', os.name: 'Windows 7', os.arch: 'amd64', os.version: '6.1', java.version: '1.8.0_111'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities [{applicationCacheEnabled=false, rotatable=false, mobileEmulationEnabled=false, networkConnectionEnabled=false, chrome={chromedriverVersion=2.30.477700 (0057494ad8732195794a7b32078424f92a5fce41), userDataDir=C:\Users\joy\AppData\Local\Temp\scoped_dir13216_29148}, takesHeapSnapshot=true, pageLoadStrategy=normal, databaseEnabled=false, handlesAlerts=true, hasTouchScreen=false, version=59.0.3071.104, platform=XP, browserConnectionEnabled=false, nativeEvents=true, acceptSslCerts=true, locationContextEnabled=true, webStorageEnabled=true, browserName=chrome, takesScreenshot=true, javascriptEnabled=true, cssSelectorsEnabled=true, unexpectedAlertBehaviour=}]
+Session ID: c5aa712148813ba867a8aeb578a7048e
+*** Element info: {Using=link text, value=万年桥牌 PC32.5R 50KG 编织袋 兰溪红狮 吨 }
+[INFO ] 2017-12-29 16:25:11,032 method:com.goushuini.utils.LogUtils.info(LogUtils.java:24)
+test07测试步骤执行失败
+[INFO ] 2017-12-29 16:25:11,151 method:com.goushuini.utils.LogUtils.info(LogUtils.java:24)
+login_001测试用例执行失败
+[INFO ] 2017-12-29 16:25:11,151 method:com.goushuini.utils.LogUtils.endTestCase(LogUtils.java:20)
+********************login_001	测试用例运行结束	*******************
+[INFO ] 2017-12-29 16:25:11,151 method:com.goushuini.utils.LogUtils.info(LogUtils.java:24)
+login_002测试用例不执行
+[INFO ] 2017-12-29 16:30:36,207 method:com.goushuini.utils.LogUtils.startTestCase(LogUtils.java:16)
+********************login_001	测试用例开始运行	*******************
+[INFO ] 2017-12-29 16:30:38,305 method:com.goushuini.utils.LogUtils.info(LogUtils.java:24)
+浏览器打开成功
+[INFO ] 2017-12-29 16:30:38,305 method:com.goushuini.utils.LogUtils.info(LogUtils.java:24)
+test01测试步骤执行成功
+[INFO ] 2017-12-29 16:30:39,528 method:com.goushuini.utils.LogUtils.info(LogUtils.java:24)
+浏览器访问网址：http://devtest.hongshids.com/account/login.do
+[INFO ] 2017-12-29 16:30:39,529 method:com.goushuini.utils.LogUtils.info(LogUtils.java:24)
+test02测试步骤执行成功
+[INFO ] 2017-12-29 16:30:41,613 method:com.goushuini.utils.LogUtils.info(LogUtils.java:24)
+休眠2秒成功
+[INFO ] 2017-12-29 16:30:41,614 method:com.goushuini.utils.LogUtils.info(LogUtils.java:24)
+test03测试步骤执行成功
+[INFO ] 2017-12-29 16:30:41,743 method:com.goushuini.utils.LogUtils.info(LogUtils.java:24)
+使用cookie[msid=e5c7d4d41d474c168cf56cab2edb72aa; expires=星期四, 24 十二月 2037 04:30:41 CST; path=/; domain=devtest.hongshids.com, JSESSIONID=1703366C6EAFB437866AE5BB69B9D757; path=/; domain=devtest.hongshids.com]登录
+[INFO ] 2017-12-29 16:30:41,743 method:com.goushuini.utils.LogUtils.info(LogUtils.java:24)
+test04测试步骤执行成功
+[INFO ] 2017-12-29 16:30:42,308 method:com.goushuini.utils.LogUtils.info(LogUtils.java:24)
+浏览器访问网址：http://devtest.hongshids.com/dealproduct/salerIndexProList.do
+[INFO ] 2017-12-29 16:30:42,309 method:com.goushuini.utils.LogUtils.info(LogUtils.java:24)
+test05测试步骤执行成功
+[INFO ] 2017-12-29 16:30:44,355 method:com.goushuini.utils.LogUtils.info(LogUtils.java:24)
+休眠2秒成功
+[INFO ] 2017-12-29 16:30:44,355 method:com.goushuini.utils.LogUtils.info(LogUtils.java:24)
+test06测试步骤执行成功
+[INFO ] 2017-12-29 16:30:44,505 method:com.goushuini.utils.LogUtils.info(LogUtils.java:24)
+单击页面元素linkText,万年桥牌 PC32.5R   兰溪红狮（销售） 通用水泥 失败，具体异常信息为no such element: Unable to locate element: {"method":"link text","selector":"万年桥牌 PC32.5R   兰溪红狮（销售） 通用水泥 "}
+  (Session info: chrome=59.0.3071.104)
+  (Driver info: chromedriver=2.30.477700 (0057494ad8732195794a7b32078424f92a5fce41),platform=Windows NT 6.1.7601 SP1 x86_64) (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 50 milliseconds
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '2.46.0', revision: '61506a4624b13675f24581e453592342b7485d71', time: '2015-06-04 10:22:50'
+System info: host: 'joy-PC', ip: '192.168.158.143', os.name: 'Windows 7', os.arch: 'amd64', os.version: '6.1', java.version: '1.8.0_111'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities [{applicationCacheEnabled=false, rotatable=false, mobileEmulationEnabled=false, networkConnectionEnabled=false, chrome={chromedriverVersion=2.30.477700 (0057494ad8732195794a7b32078424f92a5fce41), userDataDir=C:\Users\joy\AppData\Local\Temp\scoped_dir10372_31828}, takesHeapSnapshot=true, pageLoadStrategy=normal, databaseEnabled=false, handlesAlerts=true, hasTouchScreen=false, version=59.0.3071.104, platform=XP, browserConnectionEnabled=false, nativeEvents=true, acceptSslCerts=true, locationContextEnabled=true, webStorageEnabled=true, browserName=chrome, takesScreenshot=true, javascriptEnabled=true, cssSelectorsEnabled=true, unexpectedAlertBehaviour=}]
+Session ID: 4490d4031c000ff37f6bbcae3fc988f7
+*** Element info: {Using=link text, value=万年桥牌 PC32.5R   兰溪红狮（销售） 通用水泥 }
+[INFO ] 2017-12-29 16:30:44,551 method:com.goushuini.utils.LogUtils.info(LogUtils.java:24)
+test07测试步骤执行失败,后续测试用例不再执行
+[INFO ] 2017-12-29 16:30:44,597 method:com.goushuini.utils.LogUtils.info(LogUtils.java:24)
+login_001测试用例执行失败
+[INFO ] 2017-12-29 16:30:44,597 method:com.goushuini.utils.LogUtils.endTestCase(LogUtils.java:20)
+********************login_001	测试用例运行结束	*******************
+[INFO ] 2017-12-29 16:30:44,597 method:com.goushuini.utils.LogUtils.info(LogUtils.java:24)
+login_002测试用例不执行
+[INFO ] 2017-12-29 20:49:40,888 method:com.goushuini.utils.LogUtils.startTestCase(LogUtils.java:16)
+********************login_001	测试用例开始运行	*******************
+[INFO ] 2017-12-29 20:49:44,010 method:com.goushuini.utils.LogUtils.info(LogUtils.java:24)
+浏览器打开成功
+[INFO ] 2017-12-29 20:49:44,011 method:com.goushuini.utils.LogUtils.info(LogUtils.java:24)
+test01测试步骤执行成功
+[INFO ] 2017-12-29 20:49:45,027 method:com.goushuini.utils.LogUtils.info(LogUtils.java:24)
+浏览器访问网址：http://devtest.hongshids.com/account/login.do
+[INFO ] 2017-12-29 20:49:45,027 method:com.goushuini.utils.LogUtils.info(LogUtils.java:24)
+test02测试步骤执行成功
+[INFO ] 2017-12-29 20:49:47,106 method:com.goushuini.utils.LogUtils.info(LogUtils.java:24)
+休眠2秒成功
+[INFO ] 2017-12-29 20:49:47,107 method:com.goushuini.utils.LogUtils.info(LogUtils.java:24)
+test03测试步骤执行成功
+[INFO ] 2017-12-29 20:49:47,250 method:com.goushuini.utils.LogUtils.info(LogUtils.java:24)
+使用cookie[msid=e5c7d4d41d474c168cf56cab2edb72aa; expires=星期四, 24 十二月 2037 08:49:47 CST; path=/; domain=devtest.hongshids.com, JSESSIONID=8A5C4246087BC2457BC33B57E0C3CE1F; path=/; domain=devtest.hongshids.com]登录
+[INFO ] 2017-12-29 20:49:47,250 method:com.goushuini.utils.LogUtils.info(LogUtils.java:24)
+test04测试步骤执行成功
+[INFO ] 2017-12-29 20:49:48,318 method:com.goushuini.utils.LogUtils.info(LogUtils.java:24)
+浏览器访问网址：http://devtest.hongshids.com/dealproduct/salerIndexProList.do
+[INFO ] 2017-12-29 20:49:48,318 method:com.goushuini.utils.LogUtils.info(LogUtils.java:24)
+test05测试步骤执行成功
+[INFO ] 2017-12-29 20:49:50,380 method:com.goushuini.utils.LogUtils.info(LogUtils.java:24)
+休眠2秒成功
+[INFO ] 2017-12-29 20:49:50,381 method:com.goushuini.utils.LogUtils.info(LogUtils.java:24)
+test06测试步骤执行成功
+[INFO ] 2017-12-29 20:49:50,574 method:com.goushuini.utils.LogUtils.info(LogUtils.java:24)
+单击页面元素linkText,万年桥牌 PC32.5R 兰溪红狮（销售） 通用水泥失败，具体异常信息为unknown error: Element is not clickable at point (94, 1191)
+  (Session info: chrome=59.0.3071.104)
+  (Driver info: chromedriver=2.30.477700 (0057494ad8732195794a7b32078424f92a5fce41),platform=Windows NT 6.1.7601 SP1 x86_64) (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 49 milliseconds
+Build info: version: '2.46.0', revision: '61506a4624b13675f24581e453592342b7485d71', time: '2015-06-04 10:22:50'
+System info: host: 'joy-PC', ip: '192.168.158.143', os.name: 'Windows 7', os.arch: 'amd64', os.version: '6.1', java.version: '1.8.0_111'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities [{applicationCacheEnabled=false, rotatable=false, mobileEmulationEnabled=false, networkConnectionEnabled=false, chrome={chromedriverVersion=2.30.477700 (0057494ad8732195794a7b32078424f92a5fce41), userDataDir=C:\Users\joy\AppData\Local\Temp\scoped_dir8760_21105}, takesHeapSnapshot=true, pageLoadStrategy=normal, databaseEnabled=false, handlesAlerts=true, hasTouchScreen=false, version=59.0.3071.104, platform=XP, browserConnectionEnabled=false, nativeEvents=true, acceptSslCerts=true, locationContextEnabled=true, webStorageEnabled=true, browserName=chrome, takesScreenshot=true, javascriptEnabled=true, cssSelectorsEnabled=true, unexpectedAlertBehaviour=}]
+Session ID: 73e86d641e5d4d078efc8eda26800537
+[INFO ] 2017-12-29 20:49:50,637 method:com.goushuini.utils.LogUtils.info(LogUtils.java:24)
+test07测试步骤执行失败,后续测试用例不再执行
+[INFO ] 2017-12-29 20:49:50,696 method:com.goushuini.utils.LogUtils.info(LogUtils.java:24)
+login_001测试用例执行失败
+[INFO ] 2017-12-29 20:49:50,696 method:com.goushuini.utils.LogUtils.endTestCase(LogUtils.java:20)
+********************login_001	测试用例运行结束	*******************
+[INFO ] 2017-12-29 20:49:50,697 method:com.goushuini.utils.LogUtils.info(LogUtils.java:24)
+login_002测试用例不执行
+[INFO ] 2017-12-29 20:54:04,942 method:com.goushuini.utils.LogUtils.startTestCase(LogUtils.java:16)
+********************login_001	测试用例开始运行	*******************
+[INFO ] 2017-12-29 20:54:07,505 method:com.goushuini.utils.LogUtils.info(LogUtils.java:24)
+浏览器打开成功
+[INFO ] 2017-12-29 20:54:07,505 method:com.goushuini.utils.LogUtils.info(LogUtils.java:24)
+test01测试步骤执行成功
+[INFO ] 2017-12-29 20:54:08,632 method:com.goushuini.utils.LogUtils.info(LogUtils.java:24)
+浏览器访问网址：http://devtest.hongshids.com/account/login.do
+[INFO ] 2017-12-29 20:54:08,632 method:com.goushuini.utils.LogUtils.info(LogUtils.java:24)
+test02测试步骤执行成功
+[INFO ] 2017-12-29 20:54:10,721 method:com.goushuini.utils.LogUtils.info(LogUtils.java:24)
+休眠2秒成功
+[INFO ] 2017-12-29 20:54:10,723 method:com.goushuini.utils.LogUtils.info(LogUtils.java:24)
+test03测试步骤执行成功
+[INFO ] 2017-12-29 20:54:10,860 method:com.goushuini.utils.LogUtils.info(LogUtils.java:24)
+使用cookie[msid=e5c7d4d41d474c168cf56cab2edb72aa; expires=星期四, 24 十二月 2037 08:54:10 CST; path=/; domain=devtest.hongshids.com, JSESSIONID=75F6382795E80754EDF32590B6F87FCD; path=/; domain=devtest.hongshids.com]登录
+[INFO ] 2017-12-29 20:54:10,860 method:com.goushuini.utils.LogUtils.info(LogUtils.java:24)
+test04测试步骤执行成功
+[INFO ] 2017-12-29 20:54:11,529 method:com.goushuini.utils.LogUtils.info(LogUtils.java:24)
+浏览器访问网址：http://devtest.hongshids.com/dealproduct/salerIndexProList.do
+[INFO ] 2017-12-29 20:54:11,530 method:com.goushuini.utils.LogUtils.info(LogUtils.java:24)
+test05测试步骤执行成功
+[INFO ] 2017-12-29 20:54:13,590 method:com.goushuini.utils.LogUtils.info(LogUtils.java:24)
+休眠2秒成功
+[INFO ] 2017-12-29 20:54:13,590 method:com.goushuini.utils.LogUtils.info(LogUtils.java:24)
+test06测试步骤执行成功
+[INFO ] 2017-12-29 20:54:13,705 method:com.goushuini.utils.LogUtils.info(LogUtils.java:24)
+单击页面元素xpath,//a[text()="万年桥牌 PC32.5R 兰溪红狮（销售） 通用水泥"]失败，具体异常信息为no such element: Unable to locate element: {"method":"xpath","selector":"//a[text()="万年桥牌 PC32.5R 兰溪红狮（销售） 通用水泥"]"}
+  (Session info: chrome=59.0.3071.104)
+  (Driver info: chromedriver=2.30.477700 (0057494ad8732195794a7b32078424f92a5fce41),platform=Windows NT 6.1.7601 SP1 x86_64) (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 27 milliseconds
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '2.46.0', revision: '61506a4624b13675f24581e453592342b7485d71', time: '2015-06-04 10:22:50'
+System info: host: 'joy-PC', ip: '192.168.158.143', os.name: 'Windows 7', os.arch: 'amd64', os.version: '6.1', java.version: '1.8.0_111'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities [{applicationCacheEnabled=false, rotatable=false, mobileEmulationEnabled=false, networkConnectionEnabled=false, chrome={chromedriverVersion=2.30.477700 (0057494ad8732195794a7b32078424f92a5fce41), userDataDir=C:\Users\joy\AppData\Local\Temp\scoped_dir3104_26327}, takesHeapSnapshot=true, pageLoadStrategy=normal, databaseEnabled=false, handlesAlerts=true, hasTouchScreen=false, version=59.0.3071.104, platform=XP, browserConnectionEnabled=false, nativeEvents=true, acceptSslCerts=true, locationContextEnabled=true, webStorageEnabled=true, browserName=chrome, takesScreenshot=true, javascriptEnabled=true, cssSelectorsEnabled=true, unexpectedAlertBehaviour=}]
+Session ID: d9c9170f55aaa43686552983a58e0264
+*** Element info: {Using=xpath, value=//a[text()="万年桥牌 PC32.5R 兰溪红狮（销售） 通用水泥"]}
+[INFO ] 2017-12-29 20:54:13,764 method:com.goushuini.utils.LogUtils.info(LogUtils.java:24)
+test07测试步骤执行失败,后续测试用例不再执行
+[INFO ] 2017-12-29 20:54:13,820 method:com.goushuini.utils.LogUtils.info(LogUtils.java:24)
+login_001测试用例执行失败
+[INFO ] 2017-12-29 20:54:13,821 method:com.goushuini.utils.LogUtils.endTestCase(LogUtils.java:20)
+********************login_001	测试用例运行结束	*******************
+[INFO ] 2017-12-29 20:54:13,821 method:com.goushuini.utils.LogUtils.info(LogUtils.java:24)
+login_002测试用例不执行
+[INFO ] 2017-12-29 20:58:15,191 method:com.goushuini.utils.LogUtils.startTestCase(LogUtils.java:16)
+********************login_001	测试用例开始运行	*******************
+[INFO ] 2017-12-29 20:58:17,319 method:com.goushuini.utils.LogUtils.info(LogUtils.java:24)
+浏览器打开成功
+[INFO ] 2017-12-29 20:58:17,320 method:com.goushuini.utils.LogUtils.info(LogUtils.java:24)
+test01测试步骤执行成功
+[INFO ] 2017-12-29 20:58:18,278 method:com.goushuini.utils.LogUtils.info(LogUtils.java:24)
+浏览器访问网址：http://devtest.hongshids.com/account/login.do
+[INFO ] 2017-12-29 20:58:18,278 method:com.goushuini.utils.LogUtils.info(LogUtils.java:24)
+test02测试步骤执行成功
+[INFO ] 2017-12-29 20:58:20,361 method:com.goushuini.utils.LogUtils.info(LogUtils.java:24)
+休眠2秒成功
+[INFO ] 2017-12-29 20:58:20,361 method:com.goushuini.utils.LogUtils.info(LogUtils.java:24)
+test03测试步骤执行成功
+[INFO ] 2017-12-29 20:58:20,503 method:com.goushuini.utils.LogUtils.info(LogUtils.java:24)
+使用cookie[msid=e5c7d4d41d474c168cf56cab2edb72aa; expires=星期四, 24 十二月 2037 08:58:20 CST; path=/; domain=devtest.hongshids.com, JSESSIONID=193157C3ABF6D1F5AC1AD34D9AB99712; path=/; domain=devtest.hongshids.com]登录
+[INFO ] 2017-12-29 20:58:20,503 method:com.goushuini.utils.LogUtils.info(LogUtils.java:24)
+test04测试步骤执行成功
+[INFO ] 2017-12-29 20:58:21,395 method:com.goushuini.utils.LogUtils.info(LogUtils.java:24)
+浏览器访问网址：http://devtest.hongshids.com/dealproduct/salerIndexProList.do
+[INFO ] 2017-12-29 20:58:21,395 method:com.goushuini.utils.LogUtils.info(LogUtils.java:24)
+test05测试步骤执行成功
+[INFO ] 2017-12-29 20:58:23,467 method:com.goushuini.utils.LogUtils.info(LogUtils.java:24)
+休眠2秒成功
+[INFO ] 2017-12-29 20:58:23,468 method:com.goushuini.utils.LogUtils.info(LogUtils.java:24)
+test06测试步骤执行成功
+[INFO ] 2017-12-29 20:58:23,630 method:com.goushuini.utils.LogUtils.info(LogUtils.java:24)
+单击页面元素linkText,"万年桥牌 PC32.5R   兰溪红狮（销售） 通用水泥"失败，具体异常信息为no such element: Unable to locate element: {"method":"link text","selector":""万年桥牌 PC32.5R   兰溪红狮（销售） 通用水泥""}
+  (Session info: chrome=59.0.3071.104)
+  (Driver info: chromedriver=2.30.477700 (0057494ad8732195794a7b32078424f92a5fce41),platform=Windows NT 6.1.7601 SP1 x86_64) (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 51 milliseconds
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '2.46.0', revision: '61506a4624b13675f24581e453592342b7485d71', time: '2015-06-04 10:22:50'
+System info: host: 'joy-PC', ip: '192.168.158.143', os.name: 'Windows 7', os.arch: 'amd64', os.version: '6.1', java.version: '1.8.0_111'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities [{applicationCacheEnabled=false, rotatable=false, mobileEmulationEnabled=false, networkConnectionEnabled=false, chrome={chromedriverVersion=2.30.477700 (0057494ad8732195794a7b32078424f92a5fce41), userDataDir=C:\Users\joy\AppData\Local\Temp\scoped_dir12680_13332}, takesHeapSnapshot=true, pageLoadStrategy=normal, databaseEnabled=false, handlesAlerts=true, hasTouchScreen=false, version=59.0.3071.104, platform=XP, browserConnectionEnabled=false, nativeEvents=true, acceptSslCerts=true, locationContextEnabled=true, webStorageEnabled=true, browserName=chrome, takesScreenshot=true, javascriptEnabled=true, cssSelectorsEnabled=true, unexpectedAlertBehaviour=}]
+Session ID: 541f6988706bdd838fba6798c9cb9d64
+*** Element info: {Using=link text, value="万年桥牌 PC32.5R   兰溪红狮（销售） 通用水泥"}
+[INFO ] 2017-12-29 20:58:23,689 method:com.goushuini.utils.LogUtils.info(LogUtils.java:24)
+test07测试步骤执行失败,后续测试用例不再执行
+[INFO ] 2017-12-29 20:58:23,747 method:com.goushuini.utils.LogUtils.info(LogUtils.java:24)
+login_001测试用例执行失败
+[INFO ] 2017-12-29 20:58:23,748 method:com.goushuini.utils.LogUtils.endTestCase(LogUtils.java:20)
+********************login_001	测试用例运行结束	*******************
+[INFO ] 2017-12-29 20:58:23,748 method:com.goushuini.utils.LogUtils.info(LogUtils.java:24)
+login_002测试用例不执行
+[INFO ] 2017-12-29 21:05:23,590 method:com.goushuini.utils.LogUtils.startTestCase(LogUtils.java:16)
+********************login_001	测试用例开始运行	*******************
+[INFO ] 2017-12-29 21:05:25,692 method:com.goushuini.utils.LogUtils.info(LogUtils.java:24)
+浏览器打开成功
+[INFO ] 2017-12-29 21:05:25,693 method:com.goushuini.utils.LogUtils.info(LogUtils.java:24)
+test01测试步骤执行成功
+[INFO ] 2017-12-29 21:05:28,096 method:com.goushuini.utils.LogUtils.info(LogUtils.java:24)
+浏览器访问网址：http://devtest.hongshids.com/account/login.do
+[INFO ] 2017-12-29 21:05:28,096 method:com.goushuini.utils.LogUtils.info(LogUtils.java:24)
+test02测试步骤执行成功
+[INFO ] 2017-12-29 21:05:30,179 method:com.goushuini.utils.LogUtils.info(LogUtils.java:24)
+休眠2秒成功
+[INFO ] 2017-12-29 21:05:30,180 method:com.goushuini.utils.LogUtils.info(LogUtils.java:24)
+test03测试步骤执行成功
+[INFO ] 2017-12-29 21:05:30,303 method:com.goushuini.utils.LogUtils.info(LogUtils.java:24)
+使用cookie[msid=e5c7d4d41d474c168cf56cab2edb72aa; expires=星期四, 24 十二月 2037 09:05:30 CST; path=/; domain=devtest.hongshids.com, JSESSIONID=EB92910B496277B8481D50AB2B8C16EE; path=/; domain=devtest.hongshids.com]登录
+[INFO ] 2017-12-29 21:05:30,303 method:com.goushuini.utils.LogUtils.info(LogUtils.java:24)
+test04测试步骤执行成功
+[INFO ] 2017-12-29 21:05:30,915 method:com.goushuini.utils.LogUtils.info(LogUtils.java:24)
+浏览器访问网址：http://devtest.hongshids.com/dealproduct/salerIndexProList.do
+[INFO ] 2017-12-29 21:05:30,916 method:com.goushuini.utils.LogUtils.info(LogUtils.java:24)
+test05测试步骤执行成功
+[INFO ] 2017-12-29 21:05:33,974 method:com.goushuini.utils.LogUtils.info(LogUtils.java:24)
+休眠3秒成功
+[INFO ] 2017-12-29 21:05:33,975 method:com.goushuini.utils.LogUtils.info(LogUtils.java:24)
+test06测试步骤执行成功
+[INFO ] 2017-12-29 21:05:34,154 method:com.goushuini.utils.LogUtils.info(LogUtils.java:24)
+单击页面元素linkText,"万年桥牌 PC32.5R   兰溪红狮（销售） 通用水泥"失败，具体异常信息为no such element: Unable to locate element: {"method":"link text","selector":""万年桥牌 PC32.5R   兰溪红狮（销售） 通用水泥""}
+  (Session info: chrome=59.0.3071.104)
+  (Driver info: chromedriver=2.30.477700 (0057494ad8732195794a7b32078424f92a5fce41),platform=Windows NT 6.1.7601 SP1 x86_64) (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 51 milliseconds
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '2.46.0', revision: '61506a4624b13675f24581e453592342b7485d71', time: '2015-06-04 10:22:50'
+System info: host: 'joy-PC', ip: '192.168.158.143', os.name: 'Windows 7', os.arch: 'amd64', os.version: '6.1', java.version: '1.8.0_111'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities [{applicationCacheEnabled=false, rotatable=false, mobileEmulationEnabled=false, networkConnectionEnabled=false, chrome={chromedriverVersion=2.30.477700 (0057494ad8732195794a7b32078424f92a5fce41), userDataDir=C:\Users\joy\AppData\Local\Temp\scoped_dir14260_15492}, takesHeapSnapshot=true, pageLoadStrategy=normal, databaseEnabled=false, handlesAlerts=true, hasTouchScreen=false, version=59.0.3071.104, platform=XP, browserConnectionEnabled=false, nativeEvents=true, acceptSslCerts=true, locationContextEnabled=true, webStorageEnabled=true, browserName=chrome, takesScreenshot=true, javascriptEnabled=true, cssSelectorsEnabled=true, unexpectedAlertBehaviour=}]
+Session ID: a02acd3c7ca1483cb5f5a284949bc08f
+*** Element info: {Using=link text, value="万年桥牌 PC32.5R   兰溪红狮（销售） 通用水泥"}
+[INFO ] 2017-12-29 21:05:34,214 method:com.goushuini.utils.LogUtils.info(LogUtils.java:24)
+test07测试步骤执行失败,后续测试用例不再执行
+[INFO ] 2017-12-29 21:05:34,271 method:com.goushuini.utils.LogUtils.info(LogUtils.java:24)
+login_001测试用例执行失败
+[INFO ] 2017-12-29 21:05:34,272 method:com.goushuini.utils.LogUtils.endTestCase(LogUtils.java:20)
+********************login_001	测试用例运行结束	*******************
+[INFO ] 2017-12-29 21:05:34,272 method:com.goushuini.utils.LogUtils.info(LogUtils.java:24)
+login_002测试用例不执行
+[INFO ] 2017-12-29 21:07:44,286 method:com.goushuini.utils.LogUtils.startTestCase(LogUtils.java:16)
+********************login_001	测试用例开始运行	*******************
+[INFO ] 2017-12-29 21:07:47,663 method:com.goushuini.utils.LogUtils.info(LogUtils.java:24)
+浏览器打开成功
+[INFO ] 2017-12-29 21:07:47,663 method:com.goushuini.utils.LogUtils.info(LogUtils.java:24)
+test01测试步骤执行成功
+[INFO ] 2017-12-29 21:07:48,729 method:com.goushuini.utils.LogUtils.info(LogUtils.java:24)
+浏览器访问网址：http://devtest.hongshids.com/account/login.do
+[INFO ] 2017-12-29 21:07:48,730 method:com.goushuini.utils.LogUtils.info(LogUtils.java:24)
+test02测试步骤执行成功
+[INFO ] 2017-12-29 21:07:50,833 method:com.goushuini.utils.LogUtils.info(LogUtils.java:24)
+休眠2秒成功
+[INFO ] 2017-12-29 21:07:50,834 method:com.goushuini.utils.LogUtils.info(LogUtils.java:24)
+test03测试步骤执行成功
+[INFO ] 2017-12-29 21:07:50,967 method:com.goushuini.utils.LogUtils.info(LogUtils.java:24)
+使用cookie[msid=e5c7d4d41d474c168cf56cab2edb72aa; expires=星期四, 24 十二月 2037 09:07:50 CST; path=/; domain=devtest.hongshids.com, JSESSIONID=BAA718CE96890E007D58813C444998FE; path=/; domain=devtest.hongshids.com]登录
+[INFO ] 2017-12-29 21:07:50,967 method:com.goushuini.utils.LogUtils.info(LogUtils.java:24)
+test04测试步骤执行成功
+[INFO ] 2017-12-29 21:07:51,689 method:com.goushuini.utils.LogUtils.info(LogUtils.java:24)
+浏览器访问网址：http://devtest.hongshids.com/dealproduct/salerIndexProList.do
+[INFO ] 2017-12-29 21:07:51,689 method:com.goushuini.utils.LogUtils.info(LogUtils.java:24)
+test05测试步骤执行成功
+[INFO ] 2017-12-29 21:07:54,746 method:com.goushuini.utils.LogUtils.info(LogUtils.java:24)
+休眠3秒成功
+[INFO ] 2017-12-29 21:07:54,747 method:com.goushuini.utils.LogUtils.info(LogUtils.java:24)
+test06测试步骤执行成功
+[INFO ] 2017-12-29 21:07:54,923 method:com.goushuini.utils.LogUtils.info(LogUtils.java:24)
+单击页面元素linkText,"万年桥牌 PC32.5R   兰溪红狮（销售） 通用水泥"失败，具体异常信息为no such element: Unable to locate element: {"method":"link text","selector":""万年桥牌 PC32.5R   兰溪红狮（销售） 通用水泥""}
+  (Session info: chrome=59.0.3071.104)
+  (Driver info: chromedriver=2.30.477700 (0057494ad8732195794a7b32078424f92a5fce41),platform=Windows NT 6.1.7601 SP1 x86_64) (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 52 milliseconds
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '2.46.0', revision: '61506a4624b13675f24581e453592342b7485d71', time: '2015-06-04 10:22:50'
+System info: host: 'joy-PC', ip: '192.168.158.143', os.name: 'Windows 7', os.arch: 'amd64', os.version: '6.1', java.version: '1.8.0_111'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities [{applicationCacheEnabled=false, rotatable=false, mobileEmulationEnabled=false, networkConnectionEnabled=false, chrome={chromedriverVersion=2.30.477700 (0057494ad8732195794a7b32078424f92a5fce41), userDataDir=C:\Users\joy\AppData\Local\Temp\scoped_dir12240_31177}, takesHeapSnapshot=true, pageLoadStrategy=normal, databaseEnabled=false, handlesAlerts=true, hasTouchScreen=false, version=59.0.3071.104, platform=XP, browserConnectionEnabled=false, nativeEvents=true, acceptSslCerts=true, locationContextEnabled=true, webStorageEnabled=true, browserName=chrome, takesScreenshot=true, javascriptEnabled=true, cssSelectorsEnabled=true, unexpectedAlertBehaviour=}]
+Session ID: 03a0e3ace1cb88531160dd7ba85c9d1b
+*** Element info: {Using=link text, value="万年桥牌 PC32.5R   兰溪红狮（销售） 通用水泥"}
+[INFO ] 2017-12-29 21:07:54,982 method:com.goushuini.utils.LogUtils.info(LogUtils.java:24)
+test07测试步骤执行失败,后续测试用例不再执行
+[INFO ] 2017-12-29 21:07:55,042 method:com.goushuini.utils.LogUtils.info(LogUtils.java:24)
+login_001测试用例执行失败
+[INFO ] 2017-12-29 21:07:55,042 method:com.goushuini.utils.LogUtils.endTestCase(LogUtils.java:20)
+********************login_001	测试用例运行结束	*******************
+[INFO ] 2017-12-29 21:07:55,042 method:com.goushuini.utils.LogUtils.info(LogUtils.java:24)
+login_002测试用例不执行

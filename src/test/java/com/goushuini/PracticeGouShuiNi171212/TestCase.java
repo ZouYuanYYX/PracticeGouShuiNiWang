@@ -11,6 +11,7 @@ import org.testng.log4testng.Logger;
 
 import com.goushuini.configuration.AnalyzeExcelKeyWords;
 import com.goushuini.data.Contents;
+import com.goushuini.utils.CreateFileUtils;
 import com.goushuini.utils.ExcelUtils;
 import com.goushuini.utils.InitialUtils;
 import com.goushuini.utils.LogUtils;
@@ -19,7 +20,9 @@ public class TestCase {
   AnalyzeExcelKeyWords analyze = new AnalyzeExcelKeyWords();
   public static boolean result;
   @Test
-  public void testCase() {      
+  public void testCase() {  
+      //每次跑测试用例前，先去创建一个文件，用于存储每次跑的测试截图
+      String picturePath = CreateFileUtils.createDateFile(Contents.PICTURE_PATH);
       for (int i = 1;i <= ExcelUtils.getRowCount(Contents.SHEETNAME);i++) {
           if ("yes".equals(ExcelUtils.getCell(Contents.SHEETNAME, i, 3).toLowerCase().trim())) {
               String mainSheetSuiteCaseId = ExcelUtils.getCell(Contents.SHEETNAME, i, 0); 
@@ -31,7 +34,7 @@ public class TestCase {
               //设定测试用例的当前结果为true
               result = true;
               for (int j = 1;j <= ExcelUtils.getRowCount(testCaseSheetName);j++) {
-                  analyze.analyzeExcel(mainSheetSuiteCaseId,testCaseSheetName,j);                 
+                  analyze.analyzeExcel(mainSheetSuiteCaseId,testCaseSheetName,j,picturePath);                 
                   if (result == false) {                      
                       ExcelUtils.setCell(i, 4, "测试用例执行失败", Contents.SHEETNAME, Contents.PATH);
                       //在日志中打印测试用例执行完毕

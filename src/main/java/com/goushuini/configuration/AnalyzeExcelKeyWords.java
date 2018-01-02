@@ -7,7 +7,9 @@ import java.util.List;
 
 import com.goushuini.PracticeGouShuiNi171212.TestCase;
 import com.goushuini.data.Contents;
+import com.goushuini.element.operation.ScreenShotOperation;
 import com.goushuini.utils.ExcelUtils;
+import com.goushuini.utils.InitialUtils;
 import com.goushuini.utils.LogUtils;
 
 import junit.framework.Assert;
@@ -23,7 +25,7 @@ public class AnalyzeExcelKeyWords {
      * @param sheetName
      * @param rownum
      */
-    public void analyzeExcel (String mainSheetSuiteCaseId,String sheetName,int rowNum) {
+    public void analyzeExcel (String mainSheetSuiteCaseId,String sheetName,int rowNum,String picturePath) {
         String suiteCaseId;
         String testCaseId;
         String testDevices;
@@ -60,16 +62,20 @@ public class AnalyzeExcelKeyWords {
                 System.out.println("第"+rowNum+"步测试步骤执行");
                 keyWordsAction(sheetName,keyWordsFunction,testDevices,production,value1,value2,value3,value4,elementLocation1,elementLocation2);
                 if (TestCase.result == true) {
+                    ScreenShotOperation.screenShot(InitialUtils.appShipperDriver, picturePath, sheetName, testCaseId);
                     //在日志中打印测试步骤执行完毕
                     LogUtils.info(testCaseId+"测试步骤执行成功");
                     ExcelUtils.setCell(rowNum, 14, "测试步骤执行成功", sheetName, Contents.PATH);
+                } else {
+                    //在日志中打印测试步骤执行完毕
+                    ExcelUtils.setCell(rowNum, 14, "测试步骤执行失败，后续测试用例不再执行", sheetName, Contents.PATH);
+                    //InitialUtils.webDriver.quit();
+                    LogUtils.info(testCaseId+"测试步骤执行失败,后续测试用例不再执行");                 
+                    Assert.fail("执行出现异常，测试用例执行失败");
                 }
             } catch (Exception e) {
-                ExcelUtils.setCell(rowNum, 14, "测试步骤执行失败", sheetName, Contents.PATH);
-                //在日志中打印测试步骤执行完毕
-                LogUtils.info(testCaseId+"测试步骤执行失败");
-                //调用测试方法过程中，若出现异常，则将测试设定为失败，停止测试用例执行
-                Assert.fail("执行出现异常，测试用例执行失败");
+                
+                e.printStackTrace();
             }
         	
         }

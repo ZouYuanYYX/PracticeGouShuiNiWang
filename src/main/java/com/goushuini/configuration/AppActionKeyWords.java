@@ -1,9 +1,9 @@
 package com.goushuini.configuration;
 
 import com.goushuini.PracticeGouShuiNi171212.TestCase;
-import com.goushuini.h5operation.AssertOperation;
-import com.goushuini.h5operation.ClickOperation;
-import com.goushuini.h5operation.InputTextOperation;
+import com.goushuini.element.operation.AssertOperation;
+import com.goushuini.element.operation.ClickOperation;
+import com.goushuini.element.operation.InputTextOperation;
 import com.goushuini.utils.AppSwipeUtils;
 import com.goushuini.utils.ElementLocationUtils;
 import com.goushuini.utils.InitialUtils;
@@ -16,6 +16,7 @@ public class AppActionKeyWords {
     		InitialUtils.appDriverInitial(product);
     		LogUtils.info(product+"app启动成功");
         } catch (Exception e) {
+            TestCase.result = false;
         	LogUtils.info(product+"app启动异常，具体异常信息为"+e.getMessage());
         	e.printStackTrace();
         }
@@ -27,6 +28,7 @@ public class AppActionKeyWords {
     		InitialUtils.appClose(product);
     		LogUtils.info(product+"app关闭成功");
     	} catch (Exception e) {
+    	    TestCase.result = false;
         	LogUtils.info(product+"app关闭异常，具体异常信息为"+e.getMessage());
         	e.printStackTrace();
     	}
@@ -59,7 +61,7 @@ public class AppActionKeyWords {
         try {
         	if ("货主".equals(product.trim())||"货运站".equals(product.trim())) {
         		InputTextOperation.inputText(InitialUtils.appShipperDriver, ElementLocationUtils.elementLocation(elementLocation1), value1);
-            	LogUtils.info("app输入框成功输入"+value1);
+        		LogUtils.info("app输入框成功输入"+value1);
         	}
             if ("车主".equals(product.trim())||"司机".equals(product.trim())) {
             	InputTextOperation.inputText(InitialUtils.appCarrierDriver, ElementLocationUtils.elementLocation(elementLocation1), value1);

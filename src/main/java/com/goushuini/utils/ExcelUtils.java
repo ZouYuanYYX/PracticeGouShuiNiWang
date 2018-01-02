@@ -46,6 +46,13 @@ public class ExcelUtils {
         return sheet.getLastRowNum();        
     }
     
+    public static int getCellCount(String sheetName) {
+        sheet = workbook.getSheet(sheetName);
+        row = sheet.getRow(0);
+        //getLastCellNum()返回值是n（只有1列就反回1），但excel取数是从第0列开始
+        return row.getLastCellNum()-1;        
+    }
+    
     public static void setCell(int rownum,int cellnum,String result,String sheetName,String path) {
         sheet = workbook.getSheet(sheetName);
         row = sheet.getRow(rownum);

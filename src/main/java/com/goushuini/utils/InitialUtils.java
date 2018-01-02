@@ -18,7 +18,7 @@ import com.goushuini.data.Contents;
 import io.appium.java_client.android.AndroidDriver;
 
 /**
- * webdriver、androiddriver实例化
+ * webdriver、androiddriver初始化
  * @author joy
  * @date 2017年12月14日
  */
@@ -31,6 +31,7 @@ public class InitialUtils {
     public static Process pCarrier;
     public static Actions actions;
     
+
     public static void webInitial(String browser,String driverPath) {
         if ("ie".equals(browser.toLowerCase().trim())) {
             System.setProperty("webdriver.ie.driver", driverPath);
@@ -52,11 +53,11 @@ public class InitialUtils {
     public static void appDriverInitial(String product) {
     	if (product.trim().contains("货主")||product.trim().contains("货运站")) {
     		appInitial(appShipperDriver,Contents.SHIPPER,pShipper,Contents.SHIPPER_CMD,Contents.SHIPPER_DEVICE,
-    				Contents.SHIPPER_DEVICE_NAME,Contents.SHIPPER_URL);
+    				Contents.SHIPPER_DEVICE_NAME,Contents.ANDROID_SHIPPER,Contents.SHIPPER_URL);
     	}	
     	if (product.trim().contains("车主")||product.trim().contains("司机")) {
     		appInitial(appCarrierDriver,Contents.CARRIER,pCarrier,Contents.CARRIER_CMD,Contents.CARRIER_DEVICE,
-    				Contents.CARRIER_DEVICE_NAME,Contents.CARRIER_URL);
+    				Contents.CARRIER_DEVICE_NAME,Contents.ANDROID_CARRIER,Contents.CARRIER_URL);
     	}
     }
     
@@ -84,7 +85,7 @@ public class InitialUtils {
      * 货主货运站app打开初始化类
      */   
     private static void appInitial(AndroidDriver driver,String packageName,Process p,
-    		String cmd,String connectDevice,String deviceName,String url) {
+    		String cmd,String connectDevice,String deviceName,String version,String url) {
     	try {
 			Runtime.getRuntime().exec(connectDevice);
 	    	p = Runtime.getRuntime().exec(cmd);
@@ -106,7 +107,10 @@ public class InitialUtils {
 	    	capabilities.setCapability("deviceName", deviceName);
 	    	
 	    	//设置安卓系统版本
-	    	capabilities.setCapability("platformVersion", "4.4.4");
+	    	capabilities.setCapability("platformVersion", version);
+	    	
+	    	//使用的平台
+            capabilities.setCapability(CapabilityType.PLATFORM, "WINDOWS");
 	    	
             //将appium超时时间改长
             capabilities.setCapability("newCommandTimeout", 180);

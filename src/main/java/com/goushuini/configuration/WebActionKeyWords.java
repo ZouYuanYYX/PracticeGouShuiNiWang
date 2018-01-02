@@ -17,13 +17,14 @@ import org.testng.Assert;
 import com.goushuini.PracticeGouShuiNi171212.TestCase;
 import com.goushuini.data.GetDataFromDataBase;
 import com.goushuini.data.GetJsonData;
-import com.goushuini.h5operation.AlertOperation;
-import com.goushuini.h5operation.AssertOperation;
-import com.goushuini.h5operation.ClickOperation;
-import com.goushuini.h5operation.IframOperation;
-import com.goushuini.h5operation.InputTextOperation;
-import com.goushuini.h5operation.SelectOperation;
-import com.goushuini.h5operation.SwitchWindowOperation;
+import com.goushuini.element.operation.AlertOperation;
+import com.goushuini.element.operation.AssertOperation;
+import com.goushuini.element.operation.ClickOperation;
+import com.goushuini.element.operation.IframOperation;
+import com.goushuini.element.operation.InputTextOperation;
+import com.goushuini.element.operation.ScreenShotOperation;
+import com.goushuini.element.operation.SelectOperation;
+import com.goushuini.element.operation.SwitchWindowOperation;
 import com.goushuini.utils.AppSwipeUtils;
 import com.goushuini.utils.ElementLocationUtils;
 import com.goushuini.utils.InitialUtils;
@@ -49,6 +50,7 @@ public class WebActionKeyWords {
     		String value4,String elementLocation1,String elementLocation2) {
         try {
         	InitialUtils.webInitial(browser, driverPath);
+            InitialUtils.webDriver.manage().window().maximize();
         	LogUtils.info("浏览器打开成功");
         } catch (Exception e) {
         	TestCase.result = false;

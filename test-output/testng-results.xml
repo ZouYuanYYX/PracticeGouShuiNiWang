@@ -2,20 +2,20 @@
 <testng-results skipped="0" failed="0" ignored="0" total="1" passed="1">
   <reporter-output>
   </reporter-output>
-  <suite name="Default suite" duration-ms="21829" started-at="2017-12-19T13:18:36Z" finished-at="2017-12-19T13:18:58Z">
+  <suite name="Default suite" duration-ms="34234" started-at="2018-01-02T09:12:28Z" finished-at="2018-01-02T09:13:02Z">
     <groups>
     </groups>
-    <test name="Default test" duration-ms="21829" started-at="2017-12-19T13:18:36Z" finished-at="2017-12-19T13:18:58Z">
+    <test name="Default test" duration-ms="34234" started-at="2018-01-02T09:12:28Z" finished-at="2018-01-02T09:13:02Z">
       <class name="com.goushuini.PracticeGouShuiNi171212.TestCase">
-        <test-method status="PASS" signature="beforeMethod()[pri:0, instance:com.goushuini.PracticeGouShuiNi171212.TestCase@91161c7]" name="beforeMethod" is-config="true" duration-ms="1534" started-at="2017-12-19T21:18:36Z" finished-at="2017-12-19T21:18:37Z">
+        <test-method status="PASS" signature="beforeMethod()[pri:0, instance:com.goushuini.PracticeGouShuiNi171212.TestCase@754ba872]" name="beforeMethod" is-config="true" duration-ms="1133" started-at="2018-01-02T17:12:28Z" finished-at="2018-01-02T17:12:29Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- beforeMethod -->
-        <test-method status="PASS" signature="testCase()[pri:0, instance:com.goushuini.PracticeGouShuiNi171212.TestCase@91161c7]" name="testCase" duration-ms="20245" started-at="2017-12-19T21:18:37Z" finished-at="2017-12-19T21:18:57Z">
+        <test-method status="PASS" signature="testCase()[pri:0, instance:com.goushuini.PracticeGouShuiNi171212.TestCase@754ba872]" name="testCase" duration-ms="33081" started-at="2018-01-02T17:12:29Z" finished-at="2018-01-02T17:13:02Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- testCase -->
-        <test-method status="PASS" signature="afterMethod()[pri:0, instance:com.goushuini.PracticeGouShuiNi171212.TestCase@91161c7]" name="afterMethod" is-config="true" duration-ms="0" started-at="2017-12-19T21:18:58Z" finished-at="2017-12-19T21:18:58Z">
+        <test-method status="PASS" signature="afterMethod()[pri:0, instance:com.goushuini.PracticeGouShuiNi171212.TestCase@754ba872]" name="afterMethod" is-config="true" duration-ms="1" started-at="2018-01-02T17:13:02Z" finished-at="2018-01-02T17:13:02Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- afterMethod -->

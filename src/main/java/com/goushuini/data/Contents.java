@@ -11,6 +11,8 @@ public class Contents {
     public static final String PATH = "F:\\Users\\maven\\workspace\\PracticeGouShuiNi171212\\data\\testdata.xlsx";
     public static final String LOGPATH = "F:\\Users\\maven\\workspace\\PracticeGouShuiNi171212\\data\\log4j.properties";
     public static final String SHEETNAME = "Suite";
+    //测试截图保存的路径
+    public static final String PICTURE_PATH = "F:\\Users\\maven\\workspace\\PracticeGouShuiNi171212\\pictures";
    
     //数据库连接相关配置
     public static final String DB_URL = "jdbc:mysql:192.168.158.206:3307/";
@@ -29,7 +31,7 @@ public class Contents {
     //app相关配置
     //要安装的app包名
     public static final String SHIPPER = "huoYunZhan-release.apk";
-    public static final String CARRIER = "wuliudidi-2.4.0-http.apk";
+    public static final String CARRIER = "hongshiwuliu_2.6.0.apk";
     //APP存放的路径
     public static final String SHIPPER_PATH = "F:\\Users\\maven\\workspace\\PracticeGouShuiNi171212\\apps\\huoYunZhan-release.apk";
     public static final String CARRIER_PATH = "F:\\Users\\maven\\workspace\\PracticeGouShuiNi171212\\apps\\wuliudidi-2.4.0-http.apk";
@@ -47,5 +49,7 @@ public class Contents {
     //要连接的设备名
     public static final String SHIPPER_DEVICE_NAME = "127.0.0.1:62001";
     public static final String CARRIER_DEVICE_NAME = "127.0.0.1:6555";
-
+    //要测试的安卓版本
+    public static final String ANDROID_SHIPPER= "4.4.2";
+    public static final String ANDROID_CARRIER= "4.4.4";
 }
